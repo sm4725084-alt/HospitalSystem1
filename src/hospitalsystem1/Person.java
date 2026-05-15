@@ -8,7 +8,7 @@ package hospitalsystem1;
  *
  * @author Shahd Mohamed
  */
-public class Person {
+public  abstract class Person {
     protected int id;
     protected String name;
     protected int age;
@@ -26,52 +26,27 @@ public class Person {
         this.phone = phone;
     }
 
-    public int getId() {
-        return id;
-    }
+    public abstract int getId();
 
-    public void setId(int id) {
-        this.id = id;
-    }
+    public  abstract String getName() ;
 
-    public String getName() {
-        return name;
-    }
+    public  abstract int getAge();
 
-    public void setName(String name) {
-        this.name = name;
-    }
+    public abstract String getGender();
 
-    public int getAge() {
-        return age;
-    }
+    public abstract String getPhone();
 
-    public void setAge(int age) {
-        this.age = age;
-    }
+    public abstract void setId(int id);
 
-    public String getGender() {
-        return gender;
-    }
+    public  abstract void setName(String name);
 
-    public void setGender(String gender) {
-        this.gender = gender;
-    }
+    public  abstract void setAge(int age); 
 
-    public String getPhone() {
-        return phone;
-    }
+    public  abstract void setGender(String gender);
 
-    public void setPhone(String phone) {
-        this.phone = phone;
-    }
-    public void display(){
-        System.out.println("The ID is:"+this.id);
-        System.out.println("The Name is:"+this.name);
-        System.out.println("The Age is:"+this.age);
-        System.out.println("The Gender is:"+this.gender);
-        System.out.println("The Phone is:"+this.phone);
-    }
+    public  abstract void setPhone(String phone);
+    public abstract void display();
+      
         
                 
     

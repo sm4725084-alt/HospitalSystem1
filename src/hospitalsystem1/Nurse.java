@@ -38,6 +38,57 @@ public class Nurse extends Person {
         this.assignedWard = assignedWard;
     }
     @Override
+    public int getId() {
+   return id;
+    }
+
+    @Override
+    public String getName() {
+       return name;
+    }
+
+    @Override
+    public int getAge() {
+       return age;
+    }
+
+    @Override
+    public String getGender() {
+      return phone;
+    }
+
+    @Override
+    public String getPhone() {
+       return phone;
+    }
+
+    @Override
+    public void setId(int id) {
+      this.id=id;
+    }
+
+    @Override
+    public void setName(String name) {
+     this.name=name;
+    }
+
+    @Override
+    public void setAge(int age) {
+        this.age=age;
+    }
+
+    @Override
+    public void setGender(String gender) {
+      this.gender=gender;
+    }
+
+    @Override
+    public void setPhone(String phone) {
+        this.phone=phone;
+    }
+
+
+    @Override
     public void display(){
         System.out.println("The ID is:"+this.id);
         System.out.println("The Name is:"+this.name);
