@@ -4,6 +4,7 @@
  */
 package hospitalsystem1;
 import java.sql.Connection;
+import java.sql.SQLException;
 import java.sql.Statement;
 
 /**
@@ -299,10 +300,7 @@ REFERENCES patients(id)
 
         }
 
-        catch (Exception e) {
-
-            e.printStackTrace();
-
+        catch (SQLException e) {
         }
 
     }

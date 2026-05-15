@@ -22,6 +22,7 @@ public class HospitalSystem1 {
    a.info();
    Room n=new Room(56,"bones",true);
    n.show();
+        System.out.println("Hello Raneem");
         // TODO code application logic here
     }
     
