@@ -9,7 +9,7 @@ package hospitalsystem1;
  * @author Shahd Mohamed
  */
 public class Ambulance {
-     private int ambulanceId;
+    private int ambulanceId;
     private String driverName;
     private String status;
 
@@ -46,7 +46,7 @@ public class Ambulance {
         this.status = status;
     }
     public void view(){
-    System.out.println("The ambulanceId is:"+this.ambulanceId);
+        System.out.println("The ambulanceId is:"+this.ambulanceId);
         System.out.println("The driverName is: "+this.driverName);
         System.out.println("The status is: "+this.status);
     }

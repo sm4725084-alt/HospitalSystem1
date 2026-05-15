@@ -3,6 +3,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package hospitalsystem1;
+import java.util.ArrayList;
 
 /**
  *
@@ -12,7 +13,8 @@ public class patient extends Person{
     private String disease;
     private String bloodType;
     private String admissionDate;
-
+ // Association
+    private ArrayList<Appointment> appointments;
     public patient() {
     }
 
@@ -22,6 +24,7 @@ public class patient extends Person{
         this.disease = disease;
         this.bloodType = bloodType;
         this.admissionDate = admissionDate;
+        appointments = new ArrayList<>();
     }
     public String getDisease() {
         return disease;
@@ -108,6 +111,15 @@ public class patient extends Person{
         System.out.println("The bloodType is:"+this.bloodType);
         System.out.println("The  admissionDate is:"+this.admissionDate);
     }
+     public void addAppointment(Appointment appointment) {
+        appointments.add(appointment);
+}
+      public void showAppointments() {
+
+        for (Appointment a : appointments) {
+            a.show();
+        }
+      }
 }
     
 
