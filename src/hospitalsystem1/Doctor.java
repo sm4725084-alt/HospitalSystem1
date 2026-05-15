@@ -111,6 +111,9 @@ public class Doctor extends Person {
         System.out.println("The department is:"+this.department);
         
     }
-}
+    public void writePrescription(String patientName, String medicine) {
+        System.out.println("Dr. " + getName() + " prescribed " + medicine + " for " + patientName);
+    }
+ }
     
 

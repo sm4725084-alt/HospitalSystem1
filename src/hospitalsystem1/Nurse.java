@@ -99,6 +99,13 @@ public class Nurse extends Person {
         System.out.println("The AssignedWord is:"+this.assignedWard);
         
     }
+    public void display(String shift,String assignedWard){
+         System.out.println("The Shift is:"+this.shift);
+        System.out.println("The AssignedWord is:"+this.assignedWard); 
+    }
+    public void checkVitals(String patientName) {
+        System.out.println("Nurse " + getName() + " is checking vitals for " + patientName);
+    }
 }
     
 

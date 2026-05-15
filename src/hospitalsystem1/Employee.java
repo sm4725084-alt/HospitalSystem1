@@ -99,5 +99,9 @@ public void display(){
         System.out.println("The Salary is:"+this.salary);
     
 }
+public void display(double salary,String jobTitle){
+    System.out.println("The jobTitle is:"+this.jobTitle);
+        System.out.println("The Salary is:"+this.salary);
+}
     
 }

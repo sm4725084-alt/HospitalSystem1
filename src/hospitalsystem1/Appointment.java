@@ -72,6 +72,7 @@ public void show(){
     System.out.println("The time is:"+this.time);
     System.out.println("The patientName is:"+this.patientName);
     System.out.println("The doctorName is:"+this.doctorName);
+  
     
 }
     

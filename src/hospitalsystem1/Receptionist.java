@@ -88,5 +88,8 @@ public void display(){
         System.out.println("The shift is:"+this.shift);
     
 }
+public void display( String shift){
+     System.out.println("The shift is:"+this.shift);
+}
     
 }

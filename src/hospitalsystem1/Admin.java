@@ -98,5 +98,9 @@ public void display(){
         System.out.println("The username is:"+this.username);
         System.out.println("The password is:"+this.password);
 }
+public void display(String username,String password){
+    System.out.println("The username is:"+this.username);
+        System.out.println("The password is:"+this.password); 
+}
     
 }
