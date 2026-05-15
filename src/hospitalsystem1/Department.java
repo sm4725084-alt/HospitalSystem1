@@ -41,17 +41,15 @@ public class Department {
         System.out.println("The departmentId is :"+this.departmentId);
         System.out.println("The departmentName is:"+this.departmentName);
     }
-     public void addDoctor(Doctor doctor) {
+     public void addDoctor(Doctor d) {
 
-        doctors.add(doctor);
+        doctors.add(d);
     }
 
     public void showDoctors() {
-
-        for (Doctor d : doctors) {
-
-            d.display();
-        }
+    for (Doctor d : doctors) {
+        d.display();
+    }
     }
 
     public void closeDepartment() {
