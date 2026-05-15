@@ -23,7 +23,9 @@ public class HospitalSystem1 {
         
         dep.addDoctor(d2);
          dep.showDoctors();
-          dep.closeDepartment();
+          dep.closeDepartment();//aggregation
+          
+          
           
           
     }
